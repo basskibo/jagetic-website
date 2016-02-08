@@ -1,0 +1,129 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,300italic,300,100,100italic,400italic,700,700italic,900,900italic);
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+:focus {
+	outline: 0;
+}
+a:focus {
+	outline: 0;
+	text-decoration: none;
+}
+body{
+	font-family: 'Lato', sans-serif;
+}
+a {
+	text-decoration:none;
+}
+a:hover {
+	text-decoration:none;
+}
+
+.wraper{
+	width:470px;
+	margin:50px auto;
+}
+
+.wraper:before,
+.wraper:after {
+  display: table;
+  content: " ";
+}
+
+.wraper:after{
+  clear: both;
+}
+
+/* Skills Style 7 */
+
+.skillst7{
+	width:100%;
+	color:#eae7e7;
+}
+.skillst7 .skillbar{
+	width: 100%;
+	height: 40px;
+	position:relative;
+	margin-bottom:30px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	background-color: #fed142;
+
+}
+.skillst7 .count-bar{
+	height: 100%;
+	width:0px;
+	position:relative;
+	height: 40px;
+	-moz-border-radius: 20px 0 0 20px;
+	-webkit-border-radius: 20px 0 0 20px;
+	border-radius: 20px 0 0 20px;
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	background-color: #222;
+
+}
+.skillst7 .title{
+	font-size:14px;
+	font-weight:400;
+	padding-left:12px;
+	line-height:40px;
+	text-transform:uppercase;
+	display:inline-block;
+		color:#eae7e7;
+
+}
+.skillst7 .count{
+	line-height:40px;
+	font-size:14px;
+	font-weight:400;
+	display:inline-block;
+	float: right;
+	padding-right: 10px;
+}
+
+/*Coustom Media Query Css*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	
+}
+
+@media only screen and (max-width: 767px) {
+	
+}
+
+
+h3.contactOpis {
+    color: #fff;
+    text-align: justify;
+    font-size: 19px;
+}
+
+p.aboutText{
+    text-align: justify;
+}
